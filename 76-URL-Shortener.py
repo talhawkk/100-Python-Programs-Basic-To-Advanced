@@ -19,8 +19,7 @@ def shorten_url_bitly(long_url, api_key):
         return f"Error: {response.json().get('message')}"
 
 long_url = input("Enter the long URL to shorten: ")
-api_key = "41d5118f7c6fcf9975de47b4778f14917d1c6459"  # Replace with your actual Bitly API key
-
+api_key = "41d5118f7c6fcf9975de47b4778f14917d1c6459"  
 short_url = shorten_url_bitly(long_url, api_key)
 
 print("Short URL:", short_url)
