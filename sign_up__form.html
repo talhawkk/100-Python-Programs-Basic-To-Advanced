@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up  Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        form {
+            background: #fff;
+            border-radius: 5px;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sign Up  Form</h1>
+    <form name="Sign Up " action="#" method="POST">
+            <label for='Username'>Username:</label>
+        <input type='text' name='Username' id='Username' required><br>
+        <label for='Email'>Email:</label>
+        <input type='email' name='Email' id='Email' required><br>
+        <label for='Password'>Password:</label>
+        <input type='password' name='Password' id='Password' required><br>
+        <fieldset>
+        <legend>Age:</legend>
+            <input type='radio' name='Age' value='under 18' id='under 18'>
+            <label for='under 18'>under 18</label><br>
+            <input type='radio' name='Age' value='above 18' id='above 18'>
+            <label for='above 18'>above 18</label><br>
+        </fieldset>
+        <button type='submit'>Submit</button>
+    </form>
+</body>
+</html>
