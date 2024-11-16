@@ -1,1 +1,2 @@
-    """Base class representing a bank account."""
+text : ")
+    print(sentiment_analysis(text))
